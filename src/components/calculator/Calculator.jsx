@@ -23,8 +23,10 @@ export default class Calculator extends Component {
 
     if (!isNaN(lastSingn)) {
       const result = math.evaluate(this.state.condition);
-      this.setState({ result: Number(result).toFixed(2) , condition: "" });
+
+      this.setState({ result: Number(result), condition: "" });
     }
+    // if(this.state.result == )
   }
 
   addCondition(condition) {
