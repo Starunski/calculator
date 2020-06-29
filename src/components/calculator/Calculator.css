@@ -1,0 +1,20 @@
+.keyboard {
+  flex: 1;
+}
+.row div:last-child {
+  background-color: rgb(140, 82, 221);
+}
+
+.last-row {
+  display: flex;
+}
+
+.last-row .button-wrapper:last-child {
+  background-color: rgb(230, 47, 136);
+  flex: 2;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
