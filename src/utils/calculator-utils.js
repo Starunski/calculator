@@ -1,5 +1,5 @@
 export const isMathematicalOperator = (character) => {
-  return /[\+\-\%\/\*]$/.test(character);
+  return /[+\-%/*]$/.test(character);
 };
 
 export const isDotAllowed = (condition) => {
